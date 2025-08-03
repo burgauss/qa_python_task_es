@@ -2,6 +2,13 @@
 This repository serves as a reference for creating automated tests using Chrome WebDriver, Pytest, and Selenium. It demonstrates how to set up and structure test cases to efficiently validate web applications through browser automation. The project is developed using the PyCharm ID.
 It aims to provide a clear and practical foundation for anyone looking to implement reliable automated testing in Python-based environments.
 
+## Stack
+- Selenium WebDriver
+- Pytest
+- Python
+- Pycharm IDE
+- Javascript
+
 ## How to run this code?
 1. Install PyCharm, check https://www.jetbrains.com/pycharm/
 2. Make sure you create a virtual environment, follow this steps:
@@ -57,4 +64,4 @@ Once the form is filled, the data is saved by locating the submit button via XPa
 After the test, the script cleans up by reverting the environment to its original state. It records the number of cards before deletion, clicks the delete button for the newly created post, and waits for the post to be removed using the expected_conditions.text_to_be_present_in_element method. A final assert ensures that the number of cards has decreased by one, confirming that the post was successfully deleted.
 
 ### practice_exercise_3.py
-
+This practices functions similar to the ```practice_exercise_2.p``` file, with the difference that a method to scroll down to an specifc part of the code was added.
