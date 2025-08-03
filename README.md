@@ -10,7 +10,8 @@ It aims to provide a clear and practical foundation for anyone looking to implem
     - On the right, under Python Interpreter, choose New environment using and select Virtualenv.
     - Choose a location for the virtual environment.
     - Make sure the Base interpreter is set (e.g., Python 3.11).
-
+3. Install pytest using ```pip install pytest``` in your console
+4. Install the requests packages using ```pip install requests``` in your console
 
 ## open_and_close_page.py
 It includes the basics functionality to start running automated test. It opens the website and validate that the URL is the correct one.
